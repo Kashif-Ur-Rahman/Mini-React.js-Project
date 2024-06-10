@@ -1,0 +1,89 @@
+/* Product.css */
+
+/* Existing styles for Product */
+.Product {
+    /* background-color: rgb(24, 229, 157); */
+    color: #ffff;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    width: 270px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 50%;
+}
+
+.Product-0 {
+    background-image: url('/Lenovo-1.jpeg');
+
+}
+
+.Product-1 {
+    background-image: url('/DELL-1.jpeg');
+  
+}
+
+.Product-2 {
+    background-image: url('/HP-1.jpeg');
+   
+}
+
+.Product-3 {
+    background-image: url('/Laptop.jpeg');
+  
+}
+
+/* Styles for buttons */
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+.submit{
+width: 120px;
+margin-left: 90px;
+background-color: red;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004080;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Styles for form */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 300px;
+    margin-left: 470px;
+}
+
+form input, form button {
+    display: block;
+    width: 100%;
+    margin: 10px -10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
